@@ -1,0 +1,45 @@
+{"id": "name_001", "spans": []}
+{"id": "name_002", "spans": [{"text": "Tapasin Nguyen Thi Linhin", "type": "name", "criticality": "medium", "score": 0.9998, "start": 0, "end": 25, "source": "privacy_filter"}]}
+{"id": "name_003", "spans": [{"text": "Pekka Nieminen", "type": "name", "criticality": "medium", "score": 1.0, "start": 0, "end": 14, "source": "privacy_filter"}]}
+{"id": "name_004", "spans": [{"text": "Liisalle eilen", "type": "address", "criticality": "medium", "score": 0.7969, "start": 16, "end": 31, "source": "privacy_filter"}]}
+{"id": "name_005", "spans": [{"text": "Matti Virtanen", "type": "name", "criticality": "medium", "score": 1.0, "start": 18, "end": 33, "source": "privacy_filter"}, {"text": "Anna Korhonen", "type": "name", "criticality": "medium", "score": 1.0, "start": 36, "end": 50, "source": "privacy_filter"}]}
+{"id": "name_006", "spans": [{"text": "Heikki Saarisen", "type": "name", "criticality": "medium", "score": 0.9999, "start": 15, "end": 31, "source": "privacy_filter"}]}
+{"id": "name_007", "spans": [{"text": "Maria Garcia-Lopez", "type": "name", "criticality": "medium", "score": 0.9996, "start": 24, "end": 43, "source": "privacy_filter"}]}
+{"id": "name_008", "spans": []}
+{"id": "name_009", "spans": [{"text": "Hanke", "type": "name", "criticality": "medium", "score": 0.9994, "start": 0, "end": 5, "source": "privacy_filter"}, {"text": "Karin", "type": "name", "criticality": "medium", "score": 1.0, "start": 12, "end": 18, "source": "privacy_filter"}, {"text": "Tuomaksen johdolla", "type": "name", "criticality": "medium", "score": 0.9984, "start": 21, "end": 40, "source": "privacy_filter"}]}
+{"id": "name_010", "spans": [{"text": "Veli-Matti Korhonen", "type": "name", "criticality": "medium", "score": 0.9977, "start": 22, "end": 42, "source": "privacy_filter"}]}
+{"id": "name_011", "spans": [{"text": "Mukana oli", "type": "name", "criticality": "medium", "score": 0.6586, "start": 0, "end": 10, "source": "privacy_filter"}, {"text": "Mohammed Al-Rashid", "type": "name", "criticality": "medium", "score": 0.9576, "start": 15, "end": 34, "source": "privacy_filter"}]}
+{"id": "name_012", "spans": []}
+{"id": "name_013", "spans": []}
+{"id": "name_014", "spans": []}
+{"id": "name_015", "spans": [{"text": "Tervehdys Wang Weille tiimista", "type": "name", "criticality": "medium", "score": 0.9435, "start": 0, "end": 30, "source": "privacy_filter"}]}
+{"id": "name_016", "spans": [{"text": "Anneli Tuominen-Virtanen", "type": "name", "criticality": "medium", "score": 0.9999, "start": 15, "end": 40, "source": "privacy_filter"}]}
+{"id": "name_017", "spans": [{"text": "Soitin Petelle", "type": "name", "criticality": "medium", "score": 0.9915, "start": 0, "end": 14, "source": "privacy_filter"}, {"text": "Maijalle", "type": "name", "criticality": "medium", "score": 0.88, "start": 17, "end": 26, "source": "privacy_filter"}]}
+{"id": "name_018", "spans": [{"text": "Vieraana professori Jaakko Hintikka", "type": "name", "criticality": "medium", "score": 0.9658, "start": 0, "end": 35, "source": "privacy_filter"}]}
+{"id": "name_019", "spans": []}
+{"id": "name_020", "spans": [{"text": "Mukana Satu Makinen", "type": "name", "criticality": "medium", "score": 0.9756, "start": 0, "end": 19, "source": "privacy_filter"}, {"text": "Timo Laine", "type": "name", "criticality": "medium", "score": 0.8223, "start": 24, "end": 35, "source": "privacy_filter"}]}
+{"id": "addr_001", "spans": [{"text": "oso", "type": "address", "criticality": "medium", "score": 0.7545, "start": 12, "end": 16, "source": "privacy_filter"}, {"text": "M", "type": "address", "criticality": "medium", "score": 0.571, "start": 24, "end": 26, "source": "privacy_filter"}, {"text": "intie 12", "type": "address", "criticality": "medium", "score": 0.6315, "start": 35, "end": 43, "source": "privacy_filter"}, {"text": "00", "type": "address", "criticality": "medium", "score": 0.5917, "start": 48, "end": 50, "source": "privacy_filter"}]}
+{"id": "addr_002", "spans": [{"text": "Vanha Porvoontie", "type": "name", "criticality": "medium", "score": 0.9911, "start": 9, "end": 26, "source": "privacy_filter"}, {"text": "B 12", "type": "address", "criticality": "medium", "score": 0.7531, "start": 28, "end": 33, "source": "privacy_filter"}, {"text": "04600 Mantsala", "type": "address", "criticality": "medium", "score": 0.9859, "start": 35, "end": 49, "source": "privacy_filter"}]}
+{"id": "addr_003", "spans": [{"text": "Kaynti Aleksanterinkatu", "type": "name", "criticality": "medium", "score": 0.9998, "start": 0, "end": 23, "source": "privacy_filter"}, {"text": "A", "type": "address", "criticality": "medium", "score": 0.6222, "start": 26, "end": 28, "source": "privacy_filter"}, {"text": "3", "type": "address", "criticality": "medium", "score": 0.6513, "start": 30, "end": 31, "source": "privacy_filter"}]}
+{"id": "addr_004", "spans": []}
+{"id": "addr_005", "spans": [{"text": "Koti loytyy paikasta Rauhankatu", "type": "address", "criticality": "medium", "score": 0.8097, "start": 0, "end": 31, "source": "privacy_filter"}, {"text": "4, Tur", "type": "address", "criticality": "medium", "score": 0.7377, "start": 37, "end": 43, "source": "privacy_filter"}]}
+{"id": "addr_006", "spans": []}
+{"id": "addr_007", "spans": [{"text": "Tila sijaitsee osoitteessa Pitkaniementie 220, 36200 Kangasala", "type": "address", "criticality": "medium", "score": 0.9078, "start": 0, "end": 62, "source": "privacy_filter"}]}
+{"id": "addr_008", "spans": []}
+{"id": "addr_009", "spans": [{"text": "Yliopistonkatu", "type": "name", "criticality": "medium", "score": 0.9945, "start": 9, "end": 24, "source": "privacy_filter"}, {"text": "001", "type": "name", "criticality": "medium", "score": 0.5236, "start": 28, "end": 31, "source": "privacy_filter"}, {"text": "00", "type": "phone", "criticality": "medium", "score": 0.4795, "start": 31, "end": 33, "source": "privacy_filter"}, {"text": "Helsinki", "type": "name", "criticality": "medium", "score": 0.8947, "start": 33, "end": 42, "source": "privacy_filter"}]}
+{"id": "addr_010", "spans": []}
+{"id": "mix_001", "spans": [{"text": "Matti Virtanen", "type": "name", "criticality": "medium", "score": 1.0, "start": 0, "end": 14, "source": "privacy_filter"}, {"text": "Mannerheimintie 12, 00100 Helsinki", "type": "address", "criticality": "medium", "score": 0.9982, "start": 15, "end": 50, "source": "privacy_filter"}]}
+{"id": "mix_002", "spans": [{"text": "Toimita Anna Korhoselle", "type": "name", "criticality": "medium", "score": 0.995, "start": 0, "end": 23, "source": "privacy_filter"}]}
+{"id": "mix_003", "spans": [{"text": "Asukas Pekka Laine", "type": "name", "criticality": "medium", "score": 0.9999, "start": 0, "end": 18, "source": "privacy_filter"}, {"text": "Rauhankatu", "type": "address", "criticality": "medium", "score": 0.8942, "start": 19, "end": 30, "source": "privacy_filter"}]}
+{"id": "neg_001", "spans": []}
+{"id": "neg_002", "spans": []}
+{"id": "neg_003", "spans": []}
+{"id": "neg_004", "spans": []}
+{"id": "neg_005", "spans": []}
+{"id": "neg_006", "spans": []}
+{"id": "name_021", "spans": [{"text": "Sofia Andersson Ruotsista", "type": "name", "criticality": "medium", "score": 0.9998, "start": 19, "end": 45, "source": "privacy_filter"}]}
+{"id": "name_022", "spans": [{"text": "Kiitos Jari-Pekalle avusta", "type": "address", "criticality": "medium", "score": 0.9216, "start": 0, "end": 26, "source": "privacy_filter"}]}
+{"id": "name_023", "spans": [{"text": "Esimies Kimmo", "type": "name", "criticality": "medium", "score": 0.9982, "start": 0, "end": 13, "source": "privacy_filter"}]}
+{"id": "addr_011", "spans": [{"text": "Varasto", "type": "name", "criticality": "medium", "score": 0.8866, "start": 0, "end": 7, "source": "privacy_filter"}, {"text": "Teollisuuskatu", "type": "name", "criticality": "medium", "score": 0.906, "start": 8, "end": 23, "source": "privacy_filter"}, {"text": "005", "type": "name", "criticality": "medium", "score": 0.8423, "start": 28, "end": 31, "source": "privacy_filter"}, {"text": "10", "type": "address", "criticality": "medium", "score": 0.4517, "start": 31, "end": 33, "source": "privacy_filter"}, {"text": "Helsinki", "type": "name", "criticality": "medium", "score": 0.5266, "start": 33, "end": 42, "source": "privacy_filter"}]}
+{"id": "addr_012", "spans": []}
+{"id": "name_024", "spans": [{"text": "Allekirjoittajat", "type": "name", "criticality": "medium", "score": 0.9545, "start": 0, "end": 16, "source": "privacy_filter"}, {"text": "Eeva Aalto", "type": "name", "criticality": "medium", "score": 0.9999, "start": 17, "end": 28, "source": "privacy_filter"}, {"text": "Lauri Salo.", "type": "name", "criticality": "medium", "score": 0.7695, "start": 31, "end": 43, "source": "privacy_filter"}]}

@@ -1,0 +1,36 @@
+{
+  "iter": "2",
+  "size": 45,
+  "runs": {
+    "Privacy Filter only": {
+      "n_expected": 48,
+      "typed_found": 30,
+      "masked_found": 34,
+      "typed_recall": 0.625,
+      "redaction_recall": 0.7083333333333334,
+      "n_leaks": 14,
+      "n_mislabeled": 4,
+      "n_false_positives": 17
+    },
+    "Regex only": {
+      "n_expected": 48,
+      "typed_found": 0,
+      "masked_found": 0,
+      "typed_recall": 0.0,
+      "redaction_recall": 0.0,
+      "n_leaks": 48,
+      "n_mislabeled": 0,
+      "n_false_positives": 0
+    },
+    "Hybrid": {
+      "n_expected": 48,
+      "typed_found": 30,
+      "masked_found": 34,
+      "typed_recall": 0.625,
+      "redaction_recall": 0.7083333333333334,
+      "n_leaks": 14,
+      "n_mislabeled": 4,
+      "n_false_positives": 17
+    }
+  }
+}
