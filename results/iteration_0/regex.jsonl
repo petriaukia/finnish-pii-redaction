@@ -1,0 +1,15 @@
+{"id": "smoke_001", "spans": [{"text": "040 123 4567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 16, "end": 28, "source": "regex"}, {"text": "matti.virtanen@example.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 30, "end": 55, "source": "regex"}]}
+{"id": "smoke_002", "spans": [{"text": "010101A123N", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 17, "end": 28, "source": "regex"}]}
+{"id": "smoke_003", "spans": [{"text": "192.168.1.15", "type": "ip", "criticality": "high", "score": 1.0, "start": 31, "end": 43, "source": "regex"}]}
+{"id": "smoke_004", "spans": [{"text": "+358 50 987 6543", "type": "phone", "criticality": "medium", "score": 1.0, "start": 34, "end": 50, "source": "regex"}]}
+{"id": "smoke_005", "spans": [{"text": "liisa.makinen@yritys.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 30, "end": 53, "source": "regex"}]}
+{"id": "smoke_006", "spans": [{"text": "FI21 1234 5600 0007 85", "type": "iban", "criticality": "high", "score": 1.0, "start": 14, "end": 36, "source": "regex"}]}
+{"id": "smoke_007", "spans": [{"text": "2001:14bb:180:1234::1", "type": "ip", "criticality": "high", "score": 1.0, "start": 32, "end": 53, "source": "regex"}]}
+{"id": "smoke_008", "spans": [{"text": "131052-308T", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 25, "end": 36, "source": "regex"}]}
+{"id": "smoke_009", "spans": []}
+{"id": "smoke_010", "spans": []}
+{"id": "smoke_011", "spans": []}
+{"id": "smoke_012", "spans": []}
+{"id": "smoke_013", "spans": []}
+{"id": "smoke_014", "spans": []}
+{"id": "smoke_015", "spans": [{"text": "linh.nguyen@opisto.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 46, "end": 67, "source": "regex"}]}

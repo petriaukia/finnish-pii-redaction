@@ -1,0 +1,51 @@
+{"id": "ssn_001", "spans": [{"text": "131052-308T", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 25, "end": 36, "source": "regex"}]}
+{"id": "ssn_002", "spans": [{"text": "010101A123N", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 15, "end": 26, "source": "regex"}]}
+{"id": "ssn_003", "spans": [{"text": "290236+1230", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 13, "end": 24, "source": "regex"}]}
+{"id": "ssn_004", "spans": []}
+{"id": "ssn_005", "spans": [{"text": "311299B999X", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 26, "end": 37, "source": "regex"}]}
+{"id": "ssn_006", "spans": [{"text": "070770Y456H", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 7, "end": 18, "source": "regex"}]}
+{"id": "ssn_007", "spans": []}
+{"id": "ssn_008", "spans": [{"text": "010180-123A", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 27, "end": 38, "source": "regex"}, {"text": "020290-456B", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 42, "end": 53, "source": "regex"}]}
+{"id": "ssn_009", "spans": [{"text": "151199C234K", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 7, "end": 18, "source": "regex"}]}
+{"id": "ssn_010", "spans": []}
+{"id": "ip_001", "spans": [{"text": "192.168.1.15", "type": "ip", "criticality": "high", "score": 1.0, "start": 31, "end": 43, "source": "regex"}]}
+{"id": "ip_002", "spans": [{"text": "8.8.8.8", "type": "ip", "criticality": "high", "score": 1.0, "start": 16, "end": 23, "source": "regex"}]}
+{"id": "ip_003", "spans": [{"text": "255.255.255.0", "type": "ip", "criticality": "high", "score": 1.0, "start": 10, "end": 23, "source": "regex"}]}
+{"id": "ip_004", "spans": [{"text": "2001:14bb:180:1234::1", "type": "ip", "criticality": "high", "score": 1.0, "start": 29, "end": 50, "source": "regex"}]}
+{"id": "ip_005", "spans": [{"text": "fe80:0000:0000:0000:0202:b3ff:fe1e:8329", "type": "ip", "criticality": "high", "score": 1.0, "start": 11, "end": 50, "source": "regex"}]}
+{"id": "ip_006", "spans": [{"text": "::1", "type": "ip", "criticality": "high", "score": 1.0, "start": 9, "end": 12, "source": "regex"}]}
+{"id": "ip_007", "spans": [{"text": "1.2.3.4", "type": "ip", "criticality": "high", "score": 1.0, "start": 13, "end": 20, "source": "regex"}]}
+{"id": "ip_008", "spans": [{"text": "10.0.0.1", "type": "ip", "criticality": "high", "score": 1.0, "start": 17, "end": 25, "source": "regex"}, {"text": "10.0.0.2", "type": "ip", "criticality": "high", "score": 1.0, "start": 27, "end": 35, "source": "regex"}, {"text": "10.0.0.3", "type": "ip", "criticality": "high", "score": 1.0, "start": 39, "end": 47, "source": "regex"}]}
+{"id": "iban_001", "spans": [{"text": "FI21 1234 5600 0007 85", "type": "iban", "criticality": "high", "score": 1.0, "start": 12, "end": 34, "source": "regex"}]}
+{"id": "iban_002", "spans": [{"text": "FI2112345600000785", "type": "iban", "criticality": "high", "score": 1.0, "start": 14, "end": 32, "source": "regex"}]}
+{"id": "iban_003", "spans": [{"text": "FI49 5000 9420 0287 30", "type": "iban", "criticality": "high", "score": 1.0, "start": 17, "end": 39, "source": "regex"}]}
+{"id": "iban_004", "spans": []}
+{"id": "email_001", "spans": [{"text": "liisa.makinen@yritys.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 7, "end": 30, "source": "regex"}]}
+{"id": "email_002", "spans": [{"text": "matti.virtanen+laskut@example.co.uk", "type": "email", "criticality": "medium", "score": 1.0, "start": 8, "end": 43, "source": "regex"}]}
+{"id": "email_003", "spans": [{"text": "tuki@kamoon.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 25, "end": 39, "source": "regex"}]}
+{"id": "email_004", "spans": [{"text": "anna.korhonen@firma.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 23, "end": 45, "source": "regex"}]}
+{"id": "email_005", "spans": [{"text": "a@x.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 17, "end": 23, "source": "regex"}, {"text": "b@y.com", "type": "email", "criticality": "medium", "score": 1.0, "start": 27, "end": 34, "source": "regex"}]}
+{"id": "phone_001", "spans": [{"text": "040 123 4567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 27, "end": 39, "source": "regex"}]}
+{"id": "phone_002", "spans": [{"text": "+358 50 123 4567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 9, "end": 25, "source": "regex"}]}
+{"id": "phone_003", "spans": [{"text": "0401234567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 6, "end": 16, "source": "regex"}]}
+{"id": "phone_004", "spans": [{"text": "09-1234567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 7, "end": 17, "source": "regex"}]}
+{"id": "phone_005", "spans": [{"text": "+358401234567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 15, "end": 28, "source": "regex"}]}
+{"id": "phone_006", "spans": [{"text": "0207 123 456", "type": "phone", "criticality": "medium", "score": 1.0, "start": 6, "end": 18, "source": "regex"}]}
+{"id": "phone_007", "spans": [{"text": "0600 12345", "type": "phone", "criticality": "medium", "score": 1.0, "start": 11, "end": 21, "source": "regex"}]}
+{"id": "neg_001", "spans": []}
+{"id": "neg_002", "spans": []}
+{"id": "neg_003", "spans": []}
+{"id": "neg_004", "spans": []}
+{"id": "neg_005", "spans": []}
+{"id": "mix_001", "spans": [{"text": "131052-308T", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 21, "end": 32, "source": "regex"}, {"text": "040 123 4567", "type": "phone", "criticality": "medium", "score": 1.0, "start": 51, "end": 63, "source": "regex"}]}
+{"id": "mix_002", "spans": [{"text": "FI21 1234 5600 0007 85", "type": "iban", "criticality": "high", "score": 1.0, "start": 14, "end": 36, "source": "regex"}, {"text": "liisa@firma.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 45, "end": 59, "source": "regex"}]}
+{"id": "mix_003", "spans": [{"text": "192.168.1.15", "type": "ip", "criticality": "high", "score": 1.0, "start": 14, "end": 26, "source": "regex"}, {"text": "010101A123N", "type": "finnish_ssn", "criticality": "high", "score": 1.0, "start": 47, "end": 58, "source": "regex"}]}
+{"id": "mix_004", "spans": [{"text": "+358 50 987 6543", "type": "phone", "criticality": "medium", "score": 1.0, "start": 21, "end": 37, "source": "regex"}, {"text": "pekka.nieminen@example.fi", "type": "email", "criticality": "medium", "score": 1.0, "start": 39, "end": 64, "source": "regex"}]}
+{"id": "mix_005", "spans": [{"text": "ghp-abcdef1234567890abcd", "type": "secret", "criticality": "high", "score": 1.0, "start": 10, "end": 34, "source": "regex"}, {"text": "10.1.2.3", "type": "ip", "criticality": "high", "score": 1.0, "start": 45, "end": 53, "source": "regex"}]}
+{"id": "date_001", "spans": []}
+{"id": "date_002", "spans": []}
+{"id": "url_001", "spans": []}
+{"id": "addr_001", "spans": []}
+{"id": "addr_002", "spans": []}
+{"id": "clean_001", "spans": []}
+{"id": "clean_002", "spans": []}

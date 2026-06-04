@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Local tooling / secrets
+.claude/settings.local.json
+
+# Hugging Face cache (model weights are downloaded on first run)
+.cache/

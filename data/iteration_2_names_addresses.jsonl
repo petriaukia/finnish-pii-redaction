@@ -1,0 +1,3 @@
+{"id":"name_001","text":"Ota yhteys Aino-Kaisa Hamalaiseen ennen perjantaita.","expected_spans":[{"text":"Aino-Kaisa Hamalaiseen","type":"name","criticality":"medium"}],"risk_level":"medium","notes":"STUB: taivutettu kaksoisnimi - taydennetaan iteraatio 1 jalkeen"}
+{"id":"name_002","text":"Tapasin Nguyen Thi Linhin Teamsissa.","expected_spans":[{"text":"Nguyen Thi Linhin","type":"name","criticality":"medium"}],"risk_level":"medium","notes":"STUB: vieraskielinen taivutettu nimi"}
+{"id":"addr_010","text":"Kaupan kohteena on maaraala kiinteistosta, ei koko osoitteessa sijaitseva rakennus.","expected_spans":[],"risk_level":"low","notes":"STUB: negatiivinen osoitekonteksti"}

@@ -1,0 +1,7 @@
+# Runtime
+torch
+transformers
+accelerate
+
+# Dev / test
+pytest

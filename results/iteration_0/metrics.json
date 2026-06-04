@@ -1,0 +1,36 @@
+{
+  "iter": "0",
+  "size": 15,
+  "runs": {
+    "Privacy Filter only": {
+      "n_expected": 17,
+      "typed_found": 10,
+      "masked_found": 15,
+      "typed_recall": 0.5882352941176471,
+      "redaction_recall": 0.8823529411764706,
+      "n_leaks": 2,
+      "n_mislabeled": 5,
+      "n_false_positives": 9
+    },
+    "Regex only": {
+      "n_expected": 17,
+      "typed_found": 10,
+      "masked_found": 10,
+      "typed_recall": 0.5882352941176471,
+      "redaction_recall": 0.5882352941176471,
+      "n_leaks": 7,
+      "n_mislabeled": 0,
+      "n_false_positives": 0
+    },
+    "Hybrid": {
+      "n_expected": 17,
+      "typed_found": 15,
+      "masked_found": 16,
+      "typed_recall": 0.8823529411764706,
+      "redaction_recall": 0.9411764705882353,
+      "n_leaks": 1,
+      "n_mislabeled": 1,
+      "n_false_positives": 9
+    }
+  }
+}
