@@ -32,8 +32,8 @@ barely saw.
 | Iteration | Examples | Model alone (redacted) | Model alone (leaks) | Hybrid (typed) | Hybrid (redacted) | Hybrid (leaks) |
 |---|---:|---:|---:|---:|---:|---:|
 | 0 (smoke) | 15 | 88 % | 2 | 88 % | 94 % | 1 |
-| 1 (formal identifiers) | 51 | 78 % | 11 | 98 % | 98 % | 1 |
-| 2 (names & addresses) | 45 | 71 % | 14 | 62 % | 71 % | 14 |
+| 1 (formal identifiers) | 51 | 78 % | 11 | 96 % | 98 % | 1 |
+| 2 (names & addresses) | 45 | 67 % | 16 | 56 % | 67 % | 16 |
 
 In iteration 2 the hybrid equals the model alone, because regex scores **0 %** on
 names/addresses — there the model is the only layer that works, and it leaks ~30 %.

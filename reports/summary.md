@@ -6,8 +6,8 @@ Vertailu iteraatioittain. **Maskaus** = maskattiinko PII lainkaan (vuotosuoja);
 | Iteraatio | Esimerkkeja | Malli yksin (maskaus) | Malli yksin (vuodot) | Hybrid (tyypitetty) | Hybrid (maskaus) | Hybrid (vuodot) |
 |---|---:|---:|---:|---:|---:|---:|
 | 0 | 15 | 88 % | 2 | 88 % | 94 % | 1 |
-| 1 | 51 | 78 % | 11 | 98 % | 98 % | 1 |
-| 2 | 45 | 71 % | 14 | 62 % | 71 % | 14 |
+| 1 | 51 | 78 % | 11 | 96 % | 98 % | 1 |
+| 2 | 45 | 67 % | 16 | 56 % | 67 % | 16 |
 
 ## Tulkinta
 

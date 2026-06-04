@@ -3,14 +3,14 @@
 ## Yhteenveto
 
 - Aineiston koko: 51
-- Privacy Filter only: tyypitetty 51 %, maskaus 78 %, vuodot 11, FP 25
+- Privacy Filter only: tyypitetty 49 %, maskaus 78 %, vuodot 11, FP 22
 - Regex only: tyypitetty 86 %, maskaus 86 %, vuodot 7, FP 0
-- Hybrid: tyypitetty 98 %, maskaus 98 %, vuodot 1, FP 25
+- Hybrid: tyypitetty 96 %, maskaus 98 %, vuodot 1, FP 20
 - Kriittiset vuodot (criticality=high): 10
 
 ### Kriittiset vuodot
 
-- Privacy Filter only: finnish_ssn (id ssn_006, 070770Y456H)
+- Privacy Filter only: finnish_ssn (id ssn_008, 010180-123A)
 - Privacy Filter only: ip (id ip_006, ::1)
 - Privacy Filter only: ip (id ip_007, 1.2.3.4)
 - Privacy Filter only: ip (id ip_008, 10.0.0.1)
@@ -25,12 +25,12 @@
 
 ### Privacy Filter only
 
-- Odotettu: 51  tyypitetty: 26 (51 %)  maskattu: 40 (78 %)
-- Vuodot (ei maskattu): 11  vaara tyyppi: 14  false positives: 25
+- Odotettu: 51  tyypitetty: 25 (49 %)  maskattu: 40 (78 %)
+- Vuodot (ei maskattu): 11  vaara tyyppi: 15  false positives: 22
 
 | Tyyppi | Odotettu | Tyypitetty recall | Maskaus recall |
 |---|---:|---:|---:|
-| address | 2 | 100 % | 100 % |
+| address | 2 | 50 % | 100 % |
 | date | 2 | 100 % | 100 % |
 | email | 8 | 100 % | 100 % |
 | finnish_ssn | 10 | 0 % | 80 % |
@@ -61,12 +61,12 @@
 
 ### Hybrid
 
-- Odotettu: 51  tyypitetty: 50 (98 %)  maskattu: 50 (98 %)
-- Vuodot (ei maskattu): 1  vaara tyyppi: 0  false positives: 25
+- Odotettu: 51  tyypitetty: 49 (96 %)  maskattu: 50 (98 %)
+- Vuodot (ei maskattu): 1  vaara tyyppi: 1  false positives: 20
 
 | Tyyppi | Odotettu | Tyypitetty recall | Maskaus recall |
 |---|---:|---:|---:|
-| address | 2 | 100 % | 100 % |
+| address | 2 | 50 % | 100 % |
 | date | 2 | 100 % | 100 % |
 | email | 8 | 100 % | 100 % |
 | finnish_ssn | 10 | 100 % | 100 % |
@@ -81,7 +81,7 @@
 
 | id | tyyppi | odotettu | kriittisyys | ajo |
 |---|---|---|---|---|
-| ssn_006 | finnish_ssn | 070770Y456H | high | Privacy Filter only |
+| ssn_008 | finnish_ssn | 010180-123A | high | Privacy Filter only |
 | ip_006 | ip | ::1 | high | Privacy Filter only |
 | ip_007 | ip | 1.2.3.4 | high | Privacy Filter only |
 | ip_008 | ip | 10.0.0.1 | high | Privacy Filter only |
@@ -105,11 +105,11 @@
 
 | id | odotettu tyyppi | teksti | mallin tyyppi | ajo |
 |---|---|---|---|---|
-| ssn_001 | finnish_ssn | 131052-308T | phone | Privacy Filter only |
-| ssn_002 | finnish_ssn | 010101A123N | iban | Privacy Filter only |
+| ssn_001 | finnish_ssn | 131052-308T | date | Privacy Filter only |
+| ssn_002 | finnish_ssn | 010101A123N | name | Privacy Filter only |
 | ssn_003 | finnish_ssn | 290236+1230 | address | Privacy Filter only |
-| ssn_005 | finnish_ssn | 311299B999X | address | Privacy Filter only |
-| ssn_008 | finnish_ssn | 010180-123A | address | Privacy Filter only |
+| ssn_005 | finnish_ssn | 311299B999X | iban | Privacy Filter only |
+| ssn_006 | finnish_ssn | 070770Y456H | iban | Privacy Filter only |
 | ssn_008 | finnish_ssn | 020290-456B | iban | Privacy Filter only |
 | ssn_009 | finnish_ssn | 151199C234K | iban | Privacy Filter only |
 | ip_001 | ip | 192.168.1.15 | url | Privacy Filter only |
@@ -119,21 +119,20 @@
 | ip_005 | ip | fe80:0000:0000:0000:0202:b3ff:fe1e:8329 | url | Privacy Filter only |
 | mix_001 | finnish_ssn | 131052-308T | phone | Privacy Filter only |
 | mix_005 | ip | 10.1.2.3 | url | Privacy Filter only |
+| addr_002 | address | Vanha Porvoontie 7 B 12 | name | Privacy Filter only |
+| addr_002 | address | Vanha Porvoontie 7 B 12 | name | Hybrid |
 
 ## False positives (maskattu turhaan)
 
 | id | tyyppi | teksti | ajo |
 |---|---|---|---|
-| ssn_001 | name | Hakijan henkilotunnus | Privacy Filter only |
-| ssn_002 | name | Henkilotunnus | Privacy Filter only |
-| ssn_006 | name | Tunnus | Privacy Filter only |
-| ssn_006 | name | jarjestelmassa | Privacy Filter only |
+| ssn_001 | name | Hakijan henkilötunnus | Privacy Filter only |
+| ssn_005 | address | B: tunnus 311299 | Privacy Filter only |
 | ssn_007 | phone | 45 | Privacy Filter only |
-| ssn_009 | name | Tunnus | Privacy Filter only |
-| ssn_009 | name | paivitettiin | Privacy Filter only |
+| ssn_009 | name | Tunnus 151 | Privacy Filter only |
+| ssn_010 | name | Lomakkeessa luki | Privacy Filter only |
 | ip_003 | name | Raja-arvo | Privacy Filter only |
 | ip_003 | name | aliverkkomaski | Privacy Filter only |
-| ip_005 | name | reitittimelta | Privacy Filter only |
 | iban_001 | name | Tilinumero | Privacy Filter only |
 | email_004 | name | Tavutus rivin lopussa | Privacy Filter only |
 | phone_002 | name | Puhelin | Privacy Filter only |
@@ -148,17 +147,12 @@
 | date_001 | name | alkaen | Privacy Filter only |
 | addr_001 | address | oso | Privacy Filter only |
 | addr_001 | address | 00 | Privacy Filter only |
-| addr_002 | address | 04600 Mantsala | Privacy Filter only |
-| ssn_001 | name | Hakijan henkilotunnus | Hybrid |
-| ssn_002 | name | Henkilotunnus | Hybrid |
-| ssn_006 | name | Tunnus | Hybrid |
-| ssn_006 | name | jarjestelmassa | Hybrid |
+| addr_002 | name | 04600 Mäntsälä | Privacy Filter only |
+| ssn_001 | name | Hakijan henkilötunnus | Hybrid |
 | ssn_007 | phone | 45 | Hybrid |
-| ssn_009 | name | Tunnus | Hybrid |
-| ssn_009 | name | paivitettiin | Hybrid |
+| ssn_010 | name | Lomakkeessa luki | Hybrid |
 | ip_003 | name | Raja-arvo | Hybrid |
 | ip_003 | name | aliverkkomaski | Hybrid |
-| ip_005 | name | reitittimelta | Hybrid |
 | iban_001 | name | Tilinumero | Hybrid |
 | email_004 | name | Tavutus rivin lopussa | Hybrid |
 | phone_002 | name | Puhelin | Hybrid |
@@ -173,7 +167,7 @@
 | date_001 | name | alkaen | Hybrid |
 | addr_001 | address | oso | Hybrid |
 | addr_001 | address | 00 | Hybrid |
-| addr_002 | address | 04600 Mantsala | Hybrid |
+| addr_002 | name | 04600 Mäntsälä | Hybrid |
 
 ## Paatos
 

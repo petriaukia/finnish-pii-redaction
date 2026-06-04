@@ -4,13 +4,13 @@
   "runs": {
     "Privacy Filter only": {
       "n_expected": 48,
-      "typed_found": 30,
-      "masked_found": 34,
-      "typed_recall": 0.625,
-      "redaction_recall": 0.7083333333333334,
-      "n_leaks": 14,
-      "n_mislabeled": 4,
-      "n_false_positives": 17
+      "typed_found": 27,
+      "masked_found": 32,
+      "typed_recall": 0.5625,
+      "redaction_recall": 0.6666666666666666,
+      "n_leaks": 16,
+      "n_mislabeled": 5,
+      "n_false_positives": 16
     },
     "Regex only": {
       "n_expected": 48,
@@ -24,13 +24,13 @@
     },
     "Hybrid": {
       "n_expected": 48,
-      "typed_found": 30,
-      "masked_found": 34,
-      "typed_recall": 0.625,
-      "redaction_recall": 0.7083333333333334,
-      "n_leaks": 14,
-      "n_mislabeled": 4,
-      "n_false_positives": 17
+      "typed_found": 27,
+      "masked_found": 32,
+      "typed_recall": 0.5625,
+      "redaction_recall": 0.6666666666666666,
+      "n_leaks": 16,
+      "n_mislabeled": 5,
+      "n_false_positives": 16
     }
   }
 }

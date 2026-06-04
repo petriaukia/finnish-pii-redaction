@@ -85,10 +85,10 @@
 
 | id | odotettu tyyppi | teksti | mallin tyyppi | ajo |
 |---|---|---|---|---|
-| smoke_002 | finnish_ssn | 010101A123N | iban | Privacy Filter only |
+| smoke_002 | finnish_ssn | 010101A123N | date | Privacy Filter only |
 | smoke_003 | ip | 192.168.1.15 | url | Privacy Filter only |
 | smoke_007 | ip | 2001:14bb:180:1234::1 | url | Privacy Filter only |
-| smoke_008 | finnish_ssn | 131052-308T | phone | Privacy Filter only |
+| smoke_008 | finnish_ssn | 131052-308T | date | Privacy Filter only |
 | smoke_013 | secret | sk-test-ABCD1234EFGH5678 | iban | Privacy Filter only |
 | smoke_013 | secret | sk-test-ABCD1234EFGH5678 | iban | Hybrid |
 
@@ -96,21 +96,21 @@
 
 | id | tyyppi | teksti | ajo |
 |---|---|---|---|
-| smoke_002 | name | Henkilotunnus | Privacy Filter only |
-| smoke_004 | name | Ota yhteytta Aino Korhoseen | Privacy Filter only |
+| smoke_002 | name | Henkilötunnus | Privacy Filter only |
+| smoke_002 | name | . | Privacy Filter only |
+| smoke_004 | name | Aino Korhoseen | Privacy Filter only |
 | smoke_006 | name | Tilinumero | Privacy Filter only |
-| smoke_008 | name | Hakijan henkilotunnus | Privacy Filter only |
+| smoke_008 | name | Hakijan henkilötunnus | Privacy Filter only |
 | smoke_009 | name | Sopimus allekirjoitettiin | Privacy Filter only |
-| smoke_009 | name | Helsingissa | Privacy Filter only |
 | smoke_010 | address | oso | Privacy Filter only |
 | smoke_010 | address | 00 | Privacy Filter only |
 | smoke_012 | iban | 123456789 | Privacy Filter only |
-| smoke_002 | name | Henkilotunnus | Hybrid |
-| smoke_004 | name | Ota yhteytta Aino Korhoseen | Hybrid |
+| smoke_002 | name | Henkilötunnus | Hybrid |
+| smoke_002 | name | . | Hybrid |
+| smoke_004 | name | Aino Korhoseen | Hybrid |
 | smoke_006 | name | Tilinumero | Hybrid |
-| smoke_008 | name | Hakijan henkilotunnus | Hybrid |
+| smoke_008 | name | Hakijan henkilötunnus | Hybrid |
 | smoke_009 | name | Sopimus allekirjoitettiin | Hybrid |
-| smoke_009 | name | Helsingissa | Hybrid |
 | smoke_010 | address | oso | Hybrid |
 | smoke_010 | address | 00 | Hybrid |
 | smoke_012 | iban | 123456789 | Hybrid |
